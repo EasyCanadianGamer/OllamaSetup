@@ -24,4 +24,9 @@ ollama pull qwen2.5:14b-instruct
 echo "Pulling HammerAI/mythomax-l2:latest model..."
 ollama pull HammerAI/mythomax-l2:latest
 
+# Optional: pull more models
+echo "Pulling HammerAI/mn-mag-mell-r1:latest model..."
+ollama pull HammerAI/mn-mag-mell-r1:latest
+
+
 echo "All specified Ollama models have been pulled successfully!"
